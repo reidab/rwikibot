@@ -22,7 +22,7 @@ require 'pages'
 
 # gem requires
 require 'xmlsimple'
-require 'deep_merge' # New in 2.0!
+require 'active_support/core_ext/hash/deep_merge' # New in 2.0!
 
 #This is the main bot object. The goal is to represent every API method in
 #some form here, and then write seperate, cleaner scripts in individual bot
